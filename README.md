@@ -6,6 +6,8 @@ Homebrew tap for [MoorAI](https://moorai.dev), which provides on-device guardrai
 brew install --cask gitayg/tap/moorai
 ```
 
+Homebrew only loads casks from third-party taps that you trust. Installing by the full name, as above, trusts only this cask. If you'd rather tap first and use the short name, run `brew tap gitayg/tap && brew trust --cask gitayg/tap/moorai`, then `brew install --cask moorai`.
+
 | Cask | What it installs |
 |---|---|
 | `moorai` | MoorAI desktop app for macOS (Apple silicon) |
